@@ -1,0 +1,96 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.left-column{
+    background-color: rgb(15, 23, 17);
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.soccer{
+    max-width: 100%;
+    margin: 0;
+ }
+
+ .teams-title{
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 100px;
+    
+    
+ }
+ .right-column{
+    background-image: url("/images/football_background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(15, 23, 17);
+    position: relative;
+ }
+
+ .option{
+    color: white;
+    text-decoration: none;
+     font-family: 'Lora', serif;
+    
+ }
+
+ .option:hover{
+    text-decoration: underline;
+ }
+
+ .options li{
+    margin-bottom: 50px;
+ }
+
+ ul{
+    position: absolute;
+    top: 30%;
+    list-style: none;
+ }
+
+ .right-column-teams{
+    background-color: rgb(24, 28, 56);
+ }
+
+ .home-title{
+    font-family: 'Lora', serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+ }
+ .league-list{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+    
+ }
+
+
+.team{
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.league-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.league{
+    margin-bottom: 30px;
+}
